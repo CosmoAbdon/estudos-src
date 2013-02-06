@@ -85,14 +85,14 @@ System.out.println(" Escolha uma das Opcoes: ");
                 }
             }if(mp==1){
                 if(nome==null || "".equals(end)){
-                    System.out.println("\tNome :       Não Preenchido      ");
+                    System.out.println("\tEndereço :       Não Preenchido      ");
                 mp=2;
                 }else{
                 System.out.println("\tEndereco :         "+end);
                 mp=2;}
             }if(mp==2){
                 if(nome==null || "".equals(tel)){
-                    System.out.println("\tNome :       Não Preenchido      ");
+                    System.out.println("\tTelefone :       Não Preenchido      ");
                 mp=3;
                 }else{
                 System.out.println("\tTelefone :    "+tel);
