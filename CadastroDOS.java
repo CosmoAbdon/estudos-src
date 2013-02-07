@@ -28,7 +28,7 @@ int mn = 0;
 do{
    
     System.out.println("\n");
-System.out.println("-------------------------------------------------------------\n \tCadastro de Locadores - Denisglaydson Car\n-------------------------------------------------------------\n");
+System.out.println("-------------------------------------------------------------\n \tCadastro de Locadores \n-------------------------------------------------------------\n");
 
 System.out.println("\n 1 - Cadastrar Cliente\n 2 - Exibir Cliente\n 3 - Atualizar Clientes\n 4 - Deletar Cliente\n 5 - Fechar Programa\n\n");
 System.out.println(" Escolha uma das Opcoes: ");
