@@ -1,0 +1,15 @@
+import java.awt.Graphics;
+import java.awt.Polygon;
+import javax.swing.JPanel;
+
+public class Poligonos extends JPanel
+{
+   public void paintComponent(Graphics g)
+   {
+  //coordenadas x e y do Poligono
+	  int x[] = {50,50,50,90,00,00};
+	  int y[] = {50,00,90,00,00,00};
+	  Polygon poligono = new Polygon(x,y, 4);
+	  g.drawPolygon(poligono);
+   }
+} 
